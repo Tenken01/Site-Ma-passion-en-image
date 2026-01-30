@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma passion en images JL</title>
+</head>
+<script src="data.js"> </script>
+<script src="script.js"> </script>
+<link href="style.css" rel="stylesheet">
+
+<body>
+
+
+    <h2> Ma passion en image : la création de contenu </h2> <br> <br> <br>
+
+
+    <img src="Twitch.png" alt="La création de contenu" width="300" height="30%" id="Twitch" style="float: right"
+        class="zoomable" title="Twitch">
+    <br> <br> <br>
+    <div class="conteneur-dessin">
+        <div class="texte-groupe">
+            <h1>TWITCH</h1>
+            <p> Cette image est le logo de Twitch, plateforme de streaming et centre de mon contenu. </p>
+            <p> J'aime partager une expérience avec du public avec qui interagir, faire des rencontre et me servir de
+                tous
+                ça pour recréer des images par dessus.</p> <br>
+        </div>
+    </div>
+
+    <br>
+    <img src="Jeu video.png" alt="Les jeux vidéos" width="325" height="100%" id="Jeu video" style="float: left"
+        class="zoomable" title="Les jeux vidéos">
+    <br> <br>
+    <h1>LES JEUX VIDEOS</h1>
+    <p> Cette image représente une manette, lien entre le joueur et le jeu, l'objet qui va mettre à rude épreuve la
+        mémoire musculaire rudement travaillée. </p>
+    <p> J'aime jouer aux JV, me perfectionner et partager mon expérience seul ou en groupe sur les réseaux.</p>
+    <br><br><br>
+    <br><br><br>
+
+    <img src="Dessin.png" alt="Le dessin" id="Dessin" width="300" height="30%" id="Twitch" style="float: right"
+        class="zoomable" title="Dessin">
+    <div class="conteneur-dessin">
+        <div class="texte-groupe">
+            <h1>LE DESSIN</h1>
+            <p>J'aime créer des images et les animer. Ces compétences enrichissent mon identité visuelle sur les réseaux
+                comme Youtube et Twitch.<br><br><br>
+                Cette image est un croquis préparatoire réalisé pour une animation.</p>
+        </div>
+    </div>
+    <br> <br><br><br>
+
+    <div id="overlay" onclick="fermerImage()">
+        <img id="imagePopup" src="" alt="Image agrandie">
+    </div>
+
+    <hr>
+
+    <!-- FORMULAIRE -->
+
+
+    <h3>Formulaire pour proposer une image :</h3>
+    <form id="monFormulaire">
+        <strong> URL (requis) : </strong><input type="url" id="inputUrl" placeholder="URL de l'image" required><br>
+        <textarea id="inputText" placeholder="Votre description..." rows="5" cols="50"></textarea>
+    </form>
+
+
+    <h3>Attention magie...</h3>
+    <section id="preview-section" padding: 20px;>
+        <img id="preview-img" src="" alt="Aperçu" style="max-width: 200px; display: none;">
+        <p id="preview-text">La description apparaîtra ici</p>
+    </section>
+
+    <!-- FORMULAIRE -->
+
+
+    <footer>
+
+        <h3> Mention légale </h3>
+        <p>Site réalisé par Julien Lavallart. Logo de Twitch récupéré depuis <a
+                href="https://commons.wikimedia.org/wiki/File:Twitch_logo.svg">Wikimédia</a>. Symbole de manette récupéré depuis <a
+                href="https://commons.wikimedia.org/wiki/File:Video_Game_Controller_(56433)_-_The_Noun_Project.svg">Wikimédia</a>. Illustration réalisée par mes soins, tous droits réservées au concepteur du site. Hébergement sous serveur o2switch.</p>
+                <p>Aucune copie à des fins commerciales n'est autorisée</p>
+    </footer>
+
+</body>
